@@ -20,7 +20,7 @@ export const useWidgets = () => {
       widget.active = value;
     }
   };
-  const loadData = async (): Promise<void> => {
+  const loadWidgetsList = async (): Promise<void> => {
     isLoading.value = true;
 
     try {
@@ -35,6 +35,6 @@ export const useWidgets = () => {
   return {
     widgets,
     toggleActive,
-    loadData,
+    loadWidgetsList,
   };
 };
