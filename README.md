@@ -1,4 +1,4 @@
-# greenpark
+# greenspark
 
 ## Project setup
 
