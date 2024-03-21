@@ -43,8 +43,8 @@ const props = defineProps<{ widget: Widget }>();
 const { toggleActive } = useWidgets();
 
 const colors = ref<string[]>(['blue', 'green', 'beige', 'white', 'black']);
-const selectedColor = ref(props.widget.selectedColor);
-const isLinkedToPublicProfile = ref(props.widget.linked);
+const selectedColor = ref<string>(props.widget.selectedColor);
+const isLinkedToPublicProfile = ref<boolean>(props.widget.linked);
 
 const isActive = computed({
   get: () => props.widget.active,

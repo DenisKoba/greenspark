@@ -8,8 +8,9 @@
 </template>
 
 <script lang="ts" setup>
-import Widget from '@/components/widget/Widget.vue';
 import { useWidgets } from '@/composables/useWidgets';
+
+import Widget from '@/components/widget/Widget.vue';
 
 const { widgets, loadData } = useWidgets();
 

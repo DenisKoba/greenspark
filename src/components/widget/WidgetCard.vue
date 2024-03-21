@@ -15,6 +15,7 @@
 import { defineProps } from 'vue';
 
 import { Widget } from '@/core/api/fetchWidgets';
+
 import WidgetLogo from '@/components/widget/WidgetLogo.vue';
 
 defineProps<{ widget: Widget; color: string }>();

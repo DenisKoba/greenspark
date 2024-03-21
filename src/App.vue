@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import Widgets from './pages/widgets/Widgets.vue';
+import Widgets from '@/pages/widgets/Widgets.vue';
 </script>
 
 <style lang="scss">
